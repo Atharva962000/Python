@@ -6,8 +6,8 @@ pipeline {
     {
       steps {
         echo "deploying the application"
-        bash bash4.sh
-      }
+        ls      
+}
     }
   }
   
