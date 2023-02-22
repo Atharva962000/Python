@@ -6,7 +6,7 @@ pipeline {
     {
       steps {
         echo "deploying the application"
-        sh "bash bash4.sh> log.txt 2>&1 &"
+        bash bash4.sh> log.txt 2>&1 &
       }
     }
   }
