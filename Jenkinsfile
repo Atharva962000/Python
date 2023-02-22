@@ -5,7 +5,7 @@ pipeline {
     {
       steps {
         echo "deploying the application"
-        sh "./bash4.sh"  
+        sh "python flasktest3.py"  
       }
     }
   }
