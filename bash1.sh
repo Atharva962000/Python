@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo 'script1====='
 cd /home/atharva/Flask_servers
 echo "$(pwd)"
