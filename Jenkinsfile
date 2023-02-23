@@ -6,7 +6,7 @@ pipeline {
       steps {
         node('default'){
         echo "deploying the application"
-        sh "./bash4.sh"  
+        sh "sudo ./bash4.sh"  
       }}
     }
   }
