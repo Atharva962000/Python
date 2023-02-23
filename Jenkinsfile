@@ -8,6 +8,7 @@ pipeline {
         echo "deploying the application"
         sh "whoami"
         sh "sudo su"
+        sh "whoami"
         sh "./bash4.sh"  
       }}
     }
