@@ -6,6 +6,7 @@ pipeline {
       steps {
         node('default'){
         echo "deploying the application"
+        sh "whoami"
         sh "sudo su"
         sh "./bash4.sh"  
       }}
