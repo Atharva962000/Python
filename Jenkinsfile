@@ -7,7 +7,6 @@ pipeline {
         node('default'){
         echo "deploying the application"
         sh "whoami"
-        sh "sudo su -s \"$0\""
         sh "whoami"
         sh "./bash4.sh"  
       }}
