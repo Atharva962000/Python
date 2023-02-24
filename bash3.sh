@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 echo 'script3====='
 echo "$(pwd)"
 conda deactivate
