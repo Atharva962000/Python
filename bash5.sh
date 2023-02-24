@@ -1,1 +1,1 @@
-sudo -i <<EOF ./bash4.sh EOF
+sudo -i <<EOF /var/lib/jenkins/workspace/flask_deploy_master/bash4.sh EOF
