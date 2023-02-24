@@ -7,7 +7,7 @@ pipeline {
         echo "deploying the application"
         sh "whoami"
         sh "whoami"
-        sh "./bash4.sh"  
+        sudo sh "./bash4.sh"  
       }
     }
   }
