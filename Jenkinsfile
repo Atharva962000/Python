@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+      PATH="/opt/anaconda/bin/conda:$PATH"
+  }
   stages {  
     stage('Deploy')
     {
