@@ -7,7 +7,7 @@ pipeline {
         echo "deploying the application"
         sh "whoami"
         sh "whoami"
-        sh "sudo -i <<EOF./bash4.sh EOF"  
+        sh "./bash5.sh"  
       }
     }
   }
