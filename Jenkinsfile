@@ -11,7 +11,7 @@ pipeline {
         sh "whoami"
         sh "sudo su"
         sh "whoami"
-        sh "./bash5.sh"  
+        sh "./bash5.sh | at now + 5 min"  
       }
     }
   }
