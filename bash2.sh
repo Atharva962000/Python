@@ -3,4 +3,4 @@ echo 'script2====='
 echo "$(pwd)"
 conda deactivate
 conda activate apienv
-python flasktest2.py
+python3 flasktest2.py
