@@ -8,7 +8,7 @@ pipeline {
     {
       steps {
         echo "deploying the application"    
-        bat "bash5.sh | at now + 5 min"  
+        bat "./bash5.sh | at now + 5 min"  
       }
     }
   }
