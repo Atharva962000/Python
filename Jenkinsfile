@@ -8,10 +8,10 @@ pipeline {
     {
       steps {
         echo "deploying the application"
-        sh "whoami"
-        sh "sudo su"
-        sh "whoami"
-        sh "./bash5.sh | at now + 5 min"  
+        bat "whoami"
+        bat "sudo su"
+        bat "whoami"
+        bat "./bash5.sh | at now + 5 min"  
       }
     }
   }
