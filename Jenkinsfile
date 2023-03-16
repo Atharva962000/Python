@@ -8,7 +8,7 @@ pipeline {
     {
       steps {
         echo "deploying the application"    
-        sh "./bash5.sh" 
+        sh "./bash5.sh &" 
       }
     }
   }
